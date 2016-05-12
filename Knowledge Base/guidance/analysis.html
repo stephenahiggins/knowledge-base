@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+  <html>
+
+    <head>
+      <metacharset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+      <link rel="stylesheet" href="../CSS/animate.css">
+      <link rel="stylesheet" href="../CSS/style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body>
+
+      <nav class="navbar navbar-default navbar-fixed-top" id="nav-main">
+        <div class="container-fluid">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <img id="logo" src="../images/logos/ll_logo.png" alt="learning ladders logo">
+          </div>
+
+          <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav navbar-right">
+              <li id="home"><a href="../index.html">Home</a></li>
+              <li id="guides"><a href="getting_started.html">Guides</a></li>
+              <li id="faq"><a href="../faqs/index.html">FAQs</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+      <section class="side_nav">
+              <ul>
+                  <li>
+                      <a href="getting_started.html">Getting Started</a>
+                  </li>
+                  <li>
+                      <a href="curriculum.html">Curriculum</a>
+                  </li>
+                  <li>
+                      <a href="assessing.html">Assessing</a>
+                  </li>
+                  <li>
+                      <a href="analysis.html">Analysis</a>
+                  </li>
+                  <li>
+                      <a href="booklets.html">Booklets</a>
+                  </li>
+                  <li>
+                      <a href="ll_home.html">Ladders at Home</a>
+                  </li>
+              </ul>
+          </section>
+
+          <section class="main_body">
+            <div class="container-fluid">
+              <h2>Analysis</h2>
+
+              <hr>
+
+              <div class="pdf_links">
+              <ul>
+                <li><a href="how_to/gap_analysis.pdf" target="blank">How to view the gaps in a pupil's learning</a></li>
+                <li><a href="how_to/scorecard.pdf" target="blank">Scorecard</a></li>
+                <li><a href="how_to/score_banding.pdf" target="blank">Amending your Scorecard banding</a></li>
+                <li><a href="how_to/depth_index.pdf" target="blank">The Depth Index</a></li>
+              </ul>
+              </div>
+            </div>
+          </section>
+
+          <footer>
+            <p><i class="fa fa-copyright" aria-hidden="true"></i> Learning Ladders 2016.
+          </footer>
+
+    <!-- jQuery -->
+    <script src="../JS/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../JS/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+
+    </body>
+
+</html>
